@@ -207,4 +207,24 @@ class Plan
 
         return $this;
     }
+    public function addBackup (Backup $backup): self
+	{
+		if(!$this->backups->contains($backup)) {
+            $this->backups[] = $backup;
+            $backup->setPlan($this);
+        }
+        return $this;
+    }
+    public function removeBackup(Backup $backup): self
+    {
+        if ($this->backups->contains($backup)) {
+            $this->backups->removeElement($backup);
+            // set the owning side to null (unless already changed)
+            if ($backup->getPlan() === $this) {
+                $backup->setPlan(null);
+            }
+        }
+        return $this;
+    }
+	}
 }
