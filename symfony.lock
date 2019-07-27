@@ -29,7 +29,11 @@
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "1.6",
+<<<<<<< HEAD
+            "ref": "5e476e8edf3fa8e7f045ad034f89bb464424f5c1"
+=======
             "ref": "02bc9e7994b70f4fda004131a0c78b7b1bf09789"
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
         },
         "files": [
             "config/packages/doctrine.yaml",
@@ -90,6 +94,10 @@
             "config/packages/dev/easy_log_handler.yaml"
         ]
     },
+<<<<<<< HEAD
+    "egulias/email-validator": {
+        "version": "2.1.10"
+=======
     "easycorp/easyadmin-bundle": {
         "version": "2.0",
         "recipe": {
@@ -105,6 +113,7 @@
     },
     "egulias/email-validator": {
         "version": "2.1.9"
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
     },
     "fig/link-util": {
         "version": "1.0.0"
@@ -112,6 +121,21 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+<<<<<<< HEAD
+    "kevinpapst/adminlte-bundle": {
+        "version": "0.9",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "0.9",
+            "ref": "dca6a91efc23d844326d2e90b47bdf48a5038fcf"
+        },
+        "files": [
+            "config/packages/admin_lte.yaml"
+        ]
+    },
+=======
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
     "monolog/monolog": {
         "version": "1.24.0"
     },
@@ -119,14 +143,21 @@
         "version": "v4.2.2"
     },
     "ocramius/package-versions": {
+<<<<<<< HEAD
+        "version": "1.5.1"
+=======
         "version": "1.4.0"
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
     },
     "ocramius/proxy-manager": {
         "version": "2.2.2"
     },
+<<<<<<< HEAD
+=======
     "pagerfanta/pagerfanta": {
         "version": "v2.1.2"
     },
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
@@ -426,7 +457,11 @@
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "2.5",
+<<<<<<< HEAD
+            "ref": "429afc6c6778a1fdddb52a4f708cd94ff2c9960f"
+=======
             "ref": "3db029c03e452b4a23f7fc45cec7c922c2247eb8"
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
         },
         "files": [
             "config/packages/dev/swiftmailer.yaml",
@@ -518,6 +553,8 @@
     "symfony/yaml": {
         "version": "v4.3.2"
     },
+<<<<<<< HEAD
+=======
     "twig/extensions": {
         "version": "1.0",
         "recipe": {
@@ -530,6 +567,7 @@
             "config/packages/twig_extensions.yaml"
         ]
     },
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
     "twig/twig": {
         "version": "v2.11.3"
     },

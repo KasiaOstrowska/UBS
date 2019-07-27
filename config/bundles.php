@@ -14,5 +14,9 @@ return [
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true, 'test' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
+<<<<<<< HEAD
+    KevinPapst\AdminLTEBundle\AdminLTEBundle::class => ['all' => true],
+=======
     EasyCorp\Bundle\EasyAdminBundle\EasyAdminBundle::class => ['all' => true],
+>>>>>>> 71c91c29c5303fde3b344f96982b9ecf4ef0b2aa
 ];
